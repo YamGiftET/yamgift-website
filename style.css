@@ -292,3 +292,37 @@ footer p{
     background:#ffb300;
     color:#000;
 }
+.payment {
+    background: #f8f8f8;
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 700px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.payment h2 {
+    color: #0b6b3a;
+    margin-bottom: 20px;
+}
+
+.payment p {
+    font-size: 18px;
+    margin: 12px 0;
+}
+
+.payment button {
+    background: #0b6b3a;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.payment button:hover {
+    background: #084f2b;
+}

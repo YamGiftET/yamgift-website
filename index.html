@@ -169,7 +169,13 @@ Order Now
  href="https://wa.me/251987885638?text=Hello%20Yam%20Gift,%20I%20want%20to%20order." class="whatsapp-float" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
 </a>
-
+<script>
+function copyAccount() {
+    const account = document.getElementById("accountNumber").innerText;
+    navigator.clipboard.writeText(account);
+    alert("✅ Account number copied!");
+}
+</script>
 </body>
 
 </html>

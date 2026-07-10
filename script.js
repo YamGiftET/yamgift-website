@@ -9,3 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+function copyAccount() {
+    const account = document.getElementById("accountNumber").innerText;
+    navigator.clipboard.writeText(account);
+
+    alert("Account number copied!");
+}

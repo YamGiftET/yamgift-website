@@ -376,26 +376,25 @@ nav a {
 nav a:hover {
     color: gold;
 }
-.logo {
+.nav-logo {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-right: auto;
 }
 
-.logo img {
+.nav-logo img {
     width: 60px;
     height: 60px;
     object-fit: contain;
-    border-radius: 0;
     display: block;
 }
-}
 
-.logo span {
+.nav-logo span {
     color: white;
     font-size: 22px;
     font-weight: bold;
+}
 }
 
 .menu {

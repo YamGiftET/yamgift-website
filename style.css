@@ -331,3 +331,23 @@ function copyAccount() {
     navigator.clipboard.writeText(account);
     alert("✅ Account number copied!");
 }
+nav{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    padding:15px;
+    background:#0b6b3a;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#FFD700;
+}

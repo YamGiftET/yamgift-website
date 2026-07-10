@@ -326,11 +326,6 @@ footer p{
 .payment button:hover {
     background: #084f2b;
 }
-function copyAccount() {
-    const account = document.getElementById("accountNumber").innerText;
-    navigator.clipboard.writeText(account);
-    alert("✅ Account number copied!");
-}
 nav{
     display:flex;
     justify-content:center;

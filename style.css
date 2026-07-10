@@ -144,12 +144,15 @@ body{
 }
 
 .gallery-grid img{
-    width:100%;
-    height:250px;
+    width:85%;
+    height:180px;
     object-fit:cover;
     border-radius:18px;
     box-shadow:0 8px 20px rgba(0,0,0,.15);
     transition:.3s;
+    display:block;
+    margin:auto;
+}
 }
 
 .gallery-grid img:hover{

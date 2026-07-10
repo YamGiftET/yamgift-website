@@ -7,8 +7,9 @@
     padding:0;
     box-sizing:border-box;
 }
-
-body{
+   body{
+    background:red !important;
+}
     font-family:'Poppins',sans-serif;
     background:#f8f8f8;
     color:#333;

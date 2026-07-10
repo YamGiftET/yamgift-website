@@ -18,33 +18,34 @@ body{
 /* HERO */
 
 .hero{
-    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
     url("images/background.jpg") center/cover no-repeat;
 
     min-height:100vh;
-
     display:flex;
     justify-content:center;
     align-items:center;
     text-align:center;
-
     color:#fff;
-
     padding:20px;
 }
 
 .overlay{
     max-width:700px;
+    width:100%;
     margin:0 auto;
+    text-align:center;
 }
 
 .logo{
+    display:block;
     width:190px;
     height:190px;
+    margin:0 auto 20px;
     border-radius:50%;
     border:3px solid #f5e6b3;
     object-fit:cover;
-    margin-bottom:20px;
+}
 }
 
 .hero h1{

@@ -145,15 +145,10 @@
 }
 
 .gallery-grid img{
-    width:85%;
-    height:180px;
-    object-fit:cover;
+    width:100%;
+    height:auto;
     border-radius:18px;
-    box-shadow:0 8px 20px rgba(0,0,0,.15);
-    transition:.3s;
     display:block;
-    margin:auto;
-}
 }
 
 .gallery-grid img:hover{
@@ -234,7 +229,6 @@ footer p{
 
 .qr img{
     width:220px;
-}
 
 }
 /* Floating WhatsApp */
@@ -363,7 +357,6 @@ nav a {
 
 nav a:hover {
     color: gold;
-}
 }
 
 nav a {

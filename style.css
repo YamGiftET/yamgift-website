@@ -7,9 +7,14 @@
     padding:0;
     box-sizing:border-box;
 }
-   body{
-    background:red !important;
+
+html,
+body{
+    width:100%;
+    overflow-x:hidden;
 }
+
+body{
     font-family:'Poppins',sans-serif;
     background:#f8f8f8;
     color:#333;

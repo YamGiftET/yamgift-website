@@ -20,7 +20,6 @@ body{
     color:#333;
     line-height:1.6;
 }
-}
 
 /* HERO */
 
@@ -362,15 +361,4 @@ nav a:hover {
 .menu {
     display: flex;
     gap: 30px;
-}
-html,
-body{
-    margin:0;
-    padding:0;
-    width:100%;
-    overflow-x:hidden;
-}
-
-*{
-    box-sizing:border-box;
 }

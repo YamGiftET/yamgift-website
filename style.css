@@ -2,6 +2,10 @@
    YAM GIFT WEBSITE
 =========================== */
 
+/* ==========================
+   YAM GIFT WEBSITE
+========================== */
+
 *{
     margin:0;
     padding:0;
@@ -19,6 +23,7 @@ body{
     background:#f8f8f8;
     color:#333;
     line-height:1.6;
+}
 }
 
 /* HERO */
@@ -234,7 +239,7 @@ footer p{
 
 .qr img{
     width:220px;
-
+}
 }
 /* Floating WhatsApp */
 

@@ -362,3 +362,54 @@ nav a:hover {
     display: flex;
     gap: 30px;
 }
+/* ===== Yam Gift AI ===== */
+
+.ai-section{
+    background:#0F3D2E;
+    color:#F7F1E3;
+    padding:80px 20px;
+    text-align:center;
+}
+
+.ai-section h2{
+    font-size:38px;
+    color:#D4AF37;
+    margin-bottom:20px;
+}
+
+.ai-section p{
+    font-size:18px;
+    max-width:800px;
+    margin:0 auto 40px;
+}
+
+.ai-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.card{
+    background:#ffffff;
+    color:#333;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border:2px solid #D4AF37;
+}
+
+.card h3{
+    color:#0F3D2E;
+    margin-bottom:15px;
+}
+
+.card p{
+    font-size:16px;
+}
